@@ -1,3 +1,3 @@
 git pull origin master
 git add -A
-git commit -m '轮滑App测试'
+git commit -m 'RollerSkatingApp'
