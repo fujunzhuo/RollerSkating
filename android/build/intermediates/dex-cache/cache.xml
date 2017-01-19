@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\root\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="E:\project\RollerSkating\android\app\build\intermediates\pre-dexed\debug\okio-1.9.0-5698b1272d1373c20ee4420daddab566af567fde.jar" />
+    </item>
+    <item
+        jar="E:\project\RollerSkating\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="E:\project\RollerSkating\android\app\build\intermediates\pre-dexed\debug\classes-41b745b84f20118f757e10d3b99a071c278b797f.jar" />
+    </item>
+    <item
+        jar="C:\Users\root\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="E:\project\RollerSkating\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.4.1-0d2b9c8783ae5673a85e49e63d738f08bc900a70.jar" />
+    </item>
+    <item
+        jar="D:\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="E:\project\RollerSkating\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1-207338fbe8b63937757ce04de76869b84702d892.jar" />
+    </item>
+    <item
+        jar="C:\Users\root\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="E:\project\RollerSkating\android\app\build\intermediates\pre-dexed\debug\javax.inject-1-76b95d6a38e12eab9900b64de8a24e34aeb4675e.jar" />
+    </item>
+    <item
+        jar="E:\project\RollerSkating\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="E:\project\RollerSkating\android\app\build\intermediates\pre-dexed\debug\classes-80f6d02bc1a7c7e0ef56025fdd1f4fc9d0aea826.jar" />
+    </item>
+    <item
+        jar="E:\project\RollerSkating\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="E:\project\RollerSkating\android\app\build\intermediates\pre-dexed\debug\classes-109325de9813e7f09347749af221e9d5d2db8fbd.jar" />
+    </item>
+    <item
+        jar="E:\project\RollerSkating\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="E:\project\RollerSkating\android\app\build\intermediates\pre-dexed\debug\classes-da90cefb8593a918c9c3d4b741c143515306eb2f.jar" />
+    </item>
+    <item
+        jar="E:\project\RollerSkating\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="E:\project\RollerSkating\android\app\build\intermediates\pre-dexed\debug\classes-a0aad4bbf28a97fece374e70ddcae42d6b82aec9.jar" />
+    </item>
+    <item
+        jar="E:\project\RollerSkating\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="E:\project\RollerSkating\android\app\build\intermediates\pre-dexed\debug\classes-1edc2ba44a92feaf07d927cbcd9de4f70af8b942.jar" />
+    </item>
+    <item
+        jar="C:\Users\root\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="E:\project\RollerSkating\android\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1-5b324ec820c8ca6dc4ceaae5d35e4fcc91ba7718.jar" />
+    </item>
+    <item
+        jar="E:\project\RollerSkating\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.40.0\jars\libs\infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="E:\project\RollerSkating\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5-d1fcfc6246cb608a7607d45f7015d658449bacb5.jar" />
+    </item>
+    <item
+        jar="C:\Users\root\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="E:\project\RollerSkating\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0-9e3db43f319112853d3f6c93519ad1064652e2c0.jar" />
+    </item>
+    <item
+        jar="E:\project\RollerSkating\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="E:\project\RollerSkating\android\app\build\intermediates\pre-dexed\debug\classes-b4187dc53c095c4c675d007f5b86fd99371ac065.jar" />
+    </item>
+    <item
+        jar="C:\Users\root\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-ws\3.4.1\8ace66ef7002d98f633377c9e67daeeb196d8c3b\okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="E:\project\RollerSkating\android\app\build\intermediates\pre-dexed\debug\okhttp-ws-3.4.1-1c84221b0e1a8247695381942488163c8a5e5580.jar" />
+    </item>
+    <item
+        jar="E:\project\RollerSkating\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="E:\project\RollerSkating\android\app\build\intermediates\pre-dexed\debug\classes-b9e0aae3f2b026a08dac1359262d4fb80a6145ad.jar" />
+    </item>
+    <item
+        jar="C:\Users\root\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\project\RollerSkating\android\app\build\intermediates\pre-dexed\debug\library-2.4.0-b826895d8e67b56d1cbe8609b8a056ac96e2d2d2.jar" />
+    </item>
+    <item
+        jar="E:\project\RollerSkating\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="E:\project\RollerSkating\android\app\build\intermediates\pre-dexed\debug\classes-c7641542839515111e6360e86b31a96526d77009.jar" />
+    </item>
+    <item
+        jar="C:\Users\root\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="E:\project\RollerSkating\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0-e12d206cab832d28dd1ac08be5ffa963e2c33c39.jar" />
+    </item>
+    <item
+        jar="E:\project\RollerSkating\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="E:\project\RollerSkating\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1-d144ce4cfd00f62ccca21ad716a4bcff23fe1778.jar" />
+    </item>
+    <item
+        jar="E:\project\RollerSkating\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.40.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2d74afead061bfd6dda3c18734ebcf3fe0d84a7c">
+        <dex dex="E:\project\RollerSkating\android\app\build\intermediates\pre-dexed\debug\classes-fc9ad5a2fc98512bb737d7ef421c572a8f321851.jar" />
+    </item>
+    <item
+        jar="E:\project\RollerSkating\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="E:\project\RollerSkating\android\app\build\intermediates\pre-dexed\debug\classes-5c7bea1a999384d6562694cbfec1d3bb3765bda6.jar" />
+    </item>
+
+</items>
