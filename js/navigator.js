@@ -31,7 +31,7 @@ class RSNavigator extends Component {
     render() {
 
         return (
-            <View style={{paddingTop:65}}>
+            <View>
                 <TabNavigator tabBarStyle={styles.tabBarStyle} sceneStyle={styles.sceneStyle}>
                     <TabNavigator.Item
                         selected={this.state.selectedTab === 'home'}
@@ -67,7 +67,12 @@ const styles = StyleSheet.create({
         borderColor:'blue',
         borderStyle:'dashed',
         backgroundColor: '#eee',
-        alignItems: 'center'
+        alignItems: 'center',
+        position:'absolute',
+        left:0,
+        right:0,
+        bottom:200,
+        top:503,
     },
     sceneStyle:{
         height:400,
