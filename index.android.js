@@ -13,12 +13,13 @@ import {
 } from 'react-native';
 
 import RSNavigator from './js/navigator';
+import Video from './js/video';
 
 export default class RollerSkating extends Component {
   render() {
     return (
       <View>
-        <RSNavigator />
+        <Video />
       </View>
     );
   }

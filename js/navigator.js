@@ -6,10 +6,14 @@ import {
     Text,
     View,
     StatusBar,
+    ScrollView,
+    ListView,
     DrawerLayoutAndroid
 } from 'react-native';
 
 import TabNavigator from 'react-native-tab-navigator';
+
+import Cheerio from 'cheerio';
 
 class CustomBadgeView extends Component {
     render(){
@@ -29,10 +33,33 @@ class RSNavigator extends Component {
 
     constructor(props){
         super(props);
+
+        var ds = new ListView.DataSource({rowHasChanged:(r1,r2)=> r1 !== r2 });
+        var dataArr = [];
+        var t = this;
+        var html = '';
+
+
+        fetch('http://www.qiushibaike.com').then((response)=>{
+            html = JSON.stringify(response._bodyInit);
+
+            var reg3=/(\w)\n\n\n\n<span>(\w)<\/span>\n\n\n<\/div>(\w)/g;
+            dataArr = html.toString().match(reg3);
+
+            t.setState({data:html});
+            var $ = Cheerio.load(html);
+
+        });
+
         this.state = {
-            selectedTab:'Home'
+            selectedTab:'Home',
+            data:html,
+            dataSource:ds.cloneWithRows(dataArr),
         }
+
+
     }
+
 
     render() {
 
@@ -48,7 +75,24 @@ class RSNavigator extends Component {
                         badgeText="1"
                         onPress={() => this.setState({ selectedTab: 'Home' })}>
 
-                        <Image source={require('./images/demo/slideshow3.jpg')} style={{height:500}} />
+
+                        <View style={{flex: 1}}>
+                            <ScrollView>
+                                <Text>{this.state.data}</Text>
+                            </ScrollView>
+                            {/*
+                            <ListView
+                                dataSource={this.state.dataSource}
+                                renderRow={(rowData) => {
+                                    return(
+                                        <View style={styles.container}>
+                                            <Text style={styles.text}>{rowData}</Text>
+                                        </View>
+                                    );
+                                }}
+                            />*/}
+                        </View>
+
 
                     </TabNavigator.Item>
                     <TabNavigator.Item
@@ -107,11 +151,41 @@ const styles = StyleSheet.create({
     tabStyle:{
         height:65,
         alignItems:'center',
+        flex:1,
         justifyContent:'center',
     },
     tabIcon:{
         width:25,
         height:25,
+    },
+    container:{
+        flex: 1,
+        height:100,
+        flexDirection: 'row',
+        backgroundColor:'#e0f6ff',
+        borderRadius:5,
+        justifyContent:'center',
+        marginTop:20,
+        marginBottom:20,
+        marginLeft:10,
+        marginRight:10,
+        borderWidth:1,
+        borderColor:'red',
+
+    },
+    text:{
+        fontSize:30,
+        fontWeight:'100',
+        color:'#009830',
+        alignSelf:'center',
+        justifyContent:'flex-end',
+        alignItems:'flex-end',
+    },
+    img:{
+        width:80,
+        height:80,
+        marginTop:10,
+        marginRight:10
     }
 });
 
